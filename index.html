@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Frontend Mentor | Base Apparel Coming Soon solution</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
+        <meta charset="UTF-8">
+        <meta name="description" content="Frontend Mentor Base Apparel Coming Soon solution"> 
+        <meta name="keywords" content="HTML, CSS, Frontend Mentor solution"> 
+        <meta name="author" content="Grace Sampao, nadupoy">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id="header">
+            <img id="logo" src="images/logo.svg" alt="company-logo">
+        </div>
+
+        <div id="info">
+            <h1><span>WE'RE</span> COMING SOON</h1>
+
+            <p>
+                Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.
+            </p>
+
+            <form>
+                <input type="email" id="email" name="email" placeholder="Email Address">
+                <input type="image"  src="images/icon-arrow.svg" alt="Submit" onclick=""><br><br>
+                <!--<input type="reset">!-->
+                <!--<button type="submit"><img src="images\icon-arrow.svg"></button>!-->
+            </form>
+        </div>
+        
+
+        <picture>
+            <source media="(min-width: 992px)" srcset="images\hero-desktop.jpg">
+            <source media="(min-width: 320px)" srcset="images\hero-mobile.jpg">
+            <img src="images\hero-mobile.jpg" alt="portrait_of_woman" id="portrait-image">
+        </picture>
+
+        <footer>
+            <p>
+                Challenge by <a href="https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0" target="_blank">Frontend Mentor</a> | Coded by <a href="https://github.com/nadupoy" target="_blank">Nadupoy</a>
+            </p>
+        </footer>
+    </body>
+</html>
