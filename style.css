@@ -2,10 +2,15 @@
     * {
         /*box-sizing: border-box;*/
         font-family: 'Josefin Sans', sans-serif;
+<<<<<<< HEAD
+=======
+        margin: 0;
+>>>>>>> form-verification-javascript
     }
 
     body {
         width: 100%;
+<<<<<<< HEAD
         margin: auto;
     }
 
@@ -24,49 +29,95 @@
         width: 100%;
         display: block;
         margin:auto;
+=======
+        display: grid;
+    }
+
+    #header {
+        margin-top: 35px;
+        margin-left: 25px;
+        margin-bottom: 35px;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    #logo {
+        width: 120px;
+    }
+
+    #main {
+        grid-row-start: 3;
+        grid-row-end: 4;
+>>>>>>> form-verification-javascript
     }
 
     h1 {
         width: 240px;
-        font-size: 42px;
+        text-align: center;
         margin: auto;
         margin-top: 50px;
-        text-align: center;
+        margin-bottom: 25px;
         color: hsl(0, 6%, 24%);
+        font-weight: 600;
         line-height: 1.2;
+<<<<<<< HEAD
         font-kerning: auto;
         font-weight: 600;
+=======
+        letter-spacing: 10px; /*README: Learnt about letter spacing property.*/
+>>>>>>> form-verification-javascript
     }
 
-    span {
-        font-weight: 300;
+    span{
         color: hsl(0, 36%, 70%);
+        font-weight: 300;
     }
 
+<<<<<<< HEAD
     #text {
         width: 360px;
         margin: auto;
         margin-top: 20px;
         margin-bottom: 30px;
+=======
+    #main p {
+        font-size: 16px;
+        width: 340px;
+>>>>>>> form-verification-javascript
         text-align: center;
+        margin: auto;
         color: hsl(0, 36%, 70%);
         line-height: 1.5;
         font-weight: 400;
+<<<<<<< HEAD
+=======
+        margin-bottom: 25px;
+>>>>>>> form-verification-javascript
     }
 
     form {
-        display: flex;
+        width: 340px;
+        margin: auto;
+        display: grid;
         align-items: center;
+<<<<<<< HEAD
         justify-content: center;
+=======
+        grid-template-columns: 75% 25%;
+>>>>>>> form-verification-javascript
     }
 
     input[type=email] {
         height: 50px;
+<<<<<<< HEAD
         width: 80%;
+=======
+>>>>>>> form-verification-javascript
         border: 1px solid hsl(0, 36%, 70%);
         border-right: none;
-        border-radius: 25px 0px 0px 25px;
+        border-radius: 50px 0px 0px 50px;
         padding-left: 25px;
+<<<<<<< HEAD
     }
 
     input[type=email]:focus {
@@ -76,12 +127,16 @@
 
     form img {
         margin-left: -60px;
+=======
+        width: 100%;
+>>>>>>> form-verification-javascript
     }
 
     input[type=image] {
         background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
-        padding: 16px 30px;
+        padding: 17px 32px;
         border-radius: 50px;
+<<<<<<< HEAD
         margin-left: 10px;
         box-shadow: -2.5px 2.5px 10px 0px hsl(0, 6%, 50%);
     }
@@ -97,12 +152,43 @@
         margin-top: 5px;
         font-size: smaller;
         color: hsl(0, 93%, 68%);
+=======
+        box-shadow: -2.5px 2.5px 10px 0px hsl(0, 6%, 50%);
+    }
+
+    #main #error-message {
+        color: hsl(0, 93%, 68%); /*README: CSS Selectors have a hierachy regardless of the sequence*/
+        text-align: left;
+        padding-left: 50px;
+        margin-top: 5px;
+        font-size: small;
+    }
+
+    picture {
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    #portrait-image {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    footer {
+        grid-row-start: 4;
+        grid-row-end: 5;
+>>>>>>> form-verification-javascript
     }
 
     footer > p {
         font-size: small;
         text-align: center;
+<<<<<<< HEAD
         color:hsl(0, 6%, 24%);
+=======
+        color: hsl(0, 6%, 24%);
+>>>>>>> form-verification-javascript
     }
 
     a {
@@ -118,6 +204,7 @@
 
 @media screen and (min-width: 600px) and (max-width: 991px) {
     * {
+<<<<<<< HEAD
         box-sizing: border-box;
         font-family: 'Josefin Sans', sans serif;
     }
@@ -142,49 +229,101 @@
         width: 100%;
         display: block;
         margin: auto;
+=======
+        font-family: 'Josefin Sans', sans-serif;
+        margin: 0;
+    }
+
+    body {
+        width: 100%;
+        display: grid;
+    }
+
+    #header {
+        margin-top: 35px;
+        margin-left: 25px;
+        margin-bottom: 35px;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    #logo {
+        width: 120px;
+    }
+
+    #main {
+        grid-row-start: 3;
+        grid-row-end: 4;
+>>>>>>> form-verification-javascript
     }
 
     h1 {
         width: 240px;
-        font-size: 42px;
+        text-align:center;
         margin: auto;
         margin-top: 50px;
-        text-align: center;
+        margin-bottom: 25px;
         color: hsl(0, 6%, 24%);
+        font-weight: 600;
         line-height: 1.2;
+<<<<<<< HEAD
         font-kerning: auto;
         font-weight: 600;
+=======
+        letter-spacing: 10px;
+>>>>>>> form-verification-javascript
     }
 
     span {
-        font-weight: 300;
         color: hsl(0, 36%, 70%);
+        font-weight: 300;
     }
 
+<<<<<<< HEAD
     #text {
         width: 360px;
         margin: auto;
         margin-top: 20px;
         margin-bottom: 30px;
+=======
+    #main p {
+        font-size: 16px;
+        width: 450px;
+>>>>>>> form-verification-javascript
         text-align: center;
+        margin: auto;
         color: hsl(0, 36%, 70%);
         line-height: 1.5;
         font-weight: 400;
+<<<<<<< HEAD
+=======
+        margin-bottom: 25px;
+>>>>>>> form-verification-javascript
     }
 
     form {
-        display: flex;
+        width: 450px;
+        margin: auto;
+        display: grid;
         align-items: center;
+<<<<<<< HEAD
         justify-content: center;
+=======
+        grid-template-columns: 80% 20%;
+>>>>>>> form-verification-javascript
     }
 
     input[type=email] {
         height: 50px;
+<<<<<<< HEAD
         width: 80%;
+=======
+>>>>>>> form-verification-javascript
         border: 1px solid hsl(0, 36%, 70%);
         border-right: none;
-        border-radius: 25px 0px 0px 25px;
+        border-radius: 50px 0px 0px 50px;
         padding-left: 25px;
+<<<<<<< HEAD
         margin-right: -50px;
     }
 
@@ -195,10 +334,14 @@
 
     form img {
         display: none;
+=======
+        width: 100%;
+>>>>>>> form-verification-javascript
     }
 
     input[type=image] {
         background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+<<<<<<< HEAD
         padding: 16px 30px;
         border-radius: 50px;
         margin-left: 10px;
@@ -217,12 +360,45 @@
         font-size: smaller;
         color: hsl(0, 93%, 68%);
         display: none;
+=======
+        padding: 17px 40px;
+        border-radius: 50px;
+        box-shadow: -2.5px 2.5px 10px 0px hsl(0, 6%, 50%);
+    }
+
+    #main #error-message {
+        color: hsl(0, 93%, 68%);
+        text-align: left;
+        padding-left: 50px;
+        margin-top: 5px;
+        font-size: small;
+    }
+
+    picture {
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    #portrait-image {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    footer {
+        grid-row-start: 4;
+        grid-row-end: 5;
+>>>>>>> form-verification-javascript
     }
 
     footer > p {
         font-size: small;
         text-align: center;
+<<<<<<< HEAD
         color:hsl(0, 6%, 24%);
+=======
+        color: hsl(0, 6%, 24%);
+>>>>>>> form-verification-javascript
     }
 
     a {
@@ -239,10 +415,17 @@
 @media screen and (min-width: 992px) {
     * {
         font-family: 'Josefin Sans', sans-serif;
+<<<<<<< HEAD
+=======
+        margin: 0;
+>>>>>>> form-verification-javascript
     }
 
     html {
+        display: grid;
+        align-items: center;
         height: 100%;
+<<<<<<< HEAD
         display: flex;
     }
 
@@ -258,10 +441,23 @@
 
     header {
         width: 560px;
+=======
+    }
+
+    body {
+        display: grid;
+        /*width: 960px;*/
+        margin: auto;
+        background-color: hsl(330, 50%, 99%);
+    }
+
+    #header {
+>>>>>>> form-verification-javascript
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 1;
         grid-row-end: 2;
+<<<<<<< HEAD
     }
 
     header img {
@@ -279,6 +475,18 @@
     picture img {
         width: 400px;
         display: block;
+=======
+        margin-top: 75px;
+        margin-left: 100px;
+    }
+
+    #main {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        margin-left: 100px;
+>>>>>>> form-verification-javascript
     }
 
     h1 {
@@ -287,6 +495,7 @@
         grid-row-start: 2;
         grid-row-end: 3;
         width: 240px;
+<<<<<<< HEAD
         margin-left: 60px;
         margin-top: 30px;
         margin-bottom: 0;
@@ -295,13 +504,21 @@
         line-height: 1.2;
         font-kerning: auto;
         font-weight: 600;
+=======
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 1.2;
+        letter-spacing: 10px;
+        color: hsl(0, 6%, 24%);
+>>>>>>> form-verification-javascript
     }
 
     span {
-        font-weight: 300;
         color: hsl(0, 36%, 70%);
+        font-weight: 300;
     }
 
+<<<<<<< HEAD
     #text {
         grid-column-start: 1;
         grid-column-end: 2;
@@ -324,15 +541,36 @@
         justify-content: center;
         width: 80%;
         margin-left: 60px;
+=======
+    #main p {
+        width: 450px;
+        font-size: 16px;
+        color: hsl(0, 36%, 70%);
+        line-height: 1.5;
+        font-weight: 400;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+
+    form {
+        width: 450px;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 75% 25%;
+>>>>>>> form-verification-javascript
     }
 
     input[type=email] {
         height: 50px;
+<<<<<<< HEAD
         width: 420px;
+=======
+>>>>>>> form-verification-javascript
         border: 1px solid hsl(0, 36%, 70%);
         border-right: none;
-        border-radius: 25px 0px 0px 25px;
+        border-radius: 50px 0px 0px 50px;
         padding-left: 25px;
+<<<<<<< HEAD
         margin-right: -80px;
     }
 
@@ -342,14 +580,23 @@
 
     form img {
         display: none;
+=======
+        width: 100%;
+>>>>>>> form-verification-javascript
     }
 
     input[type=image] {
         background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+<<<<<<< HEAD
         padding: 18px 36px;
         border-radius: 50px;
         box-shadow: -2.5px 2.5px 10px 0px hsl(0, 6%, 50%);
         margin-left: 20px;
+=======
+        padding: 17px 40px;
+        border-radius: 50px;
+        box-shadow: -2.5px 2.5px 10px 0px hsl(0, 6%, 50%);
+>>>>>>> form-verification-javascript
     }
 
     input[type=image]:hover {
@@ -357,6 +604,7 @@
         cursor: pointer;
     }
 
+<<<<<<< HEAD
     #error-message {
         grid-column-start: 1;
         grid-column-end: 2;
@@ -369,12 +617,45 @@
         font-size: smaller;
         color: hsl(0, 93%, 68%);
         display: none;
+=======
+    #main #error-message {
+        color: hsl(0, 93%, 68%);
+        text-align: left;
+        padding-left: 25px;
+        margin-top: 5px;
+        font-size: small;
+    }
+
+    picture {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    #portrait-image {
+        display: block;
+        margin: auto;
+        width: 420px;
+    }
+
+    footer {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        margin-top: 5px;
+>>>>>>> form-verification-javascript
     }
 
     footer > p {
         font-size: small;
         text-align: center;
+<<<<<<< HEAD
         color:hsl(0, 6%, 24%);
+=======
+        color: hsl(0, 6%, 24%);
+>>>>>>> form-verification-javascript
     }
 
     a {
