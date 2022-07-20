@@ -19,5 +19,6 @@ function verify() {
 
     if (emailVerification === false) {
       document.getElementById("error-message").innerHTML = "Please provide a valid email";
+      document.getElementById("icon-error").style.display = "block";
     }
 }
