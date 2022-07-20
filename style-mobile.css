@@ -22,14 +22,6 @@
         margin:auto;
     }
 
-    #header {
-        margin-top: 35px;
-        margin-left: 25px;
-        margin-bottom: 35px;
-        grid-row-start: 1;
-        grid-row-end: 2;
-    }
-
     h1 {
         width: 240px;
         text-align: center;
