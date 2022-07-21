@@ -120,6 +120,8 @@ Moreover, I would also like to gain a better understanding of Git.
 - [javascript.info](https://javascript.info/regular-expressions) - Provides more detailed information and examples on regular expressions in JavaScript.
 - [W3Schools](https://www.w3schools.com/html/html_forms.asp) - A good introduction to HTML forms.
 - [W3Schools](https://www.w3schools.com/git/default.asp) - A good tutorial on Git and GitHub.
+- [stack overflow](https://stackoverflow.com/questions/6708249/regexp-test-always-returning-false) - Solution to why JavaScript was always returning 'false' even if the output was supposed to be 'true'.
+- [stack overflow](https://stackoverflow.com/questions/19454310/stop-form-refreshing-page-on-submit) - Solution to why the JavaScript function stopped running after submitting the form. 
 
 ## Author
 
