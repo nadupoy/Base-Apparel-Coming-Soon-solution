@@ -117,7 +117,7 @@ Moreover, I would also like to gain a better understanding of Git.
 ### Useful resources
 
 - [W3Schools](https://www.w3schools.com/js/js_regexp.asp) - This was a good introduction to regular expressions in JavaScript.
-- [javascript.info](https://javascript.info/regular-expressions) - Provides more detailed information and exampleson regular expressions in JavaScript.
+- [javascript.info](https://javascript.info/regular-expressions) - Provides more detailed information and examples on regular expressions in JavaScript.
 - [W3Schools](https://www.w3schools.com/html/html_forms.asp) - A good introduction to HTML forms.
 - [W3Schools](https://www.w3schools.com/git/default.asp) - A good tutorial on Git and GitHub.
 
